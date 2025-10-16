@@ -13,4 +13,9 @@ public class CalculatorLauncher {
         return a * b;
     }
 
+    public double divide(int a, int b) {
+        return (double) a / b;
+    }
+
+
 }
