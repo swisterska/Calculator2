@@ -17,5 +17,13 @@ public class CalculatorLauncher {
         return (double) a / b;
     }
 
+    public double divideSafe(int a, int b) {
+        if (b == 0) {
+            throw new ArithmeticException("Cannot divide by zero!");
+        }
+        return (double) a / b;
+    }
+
+
 
 }
